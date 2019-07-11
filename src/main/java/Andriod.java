@@ -10,4 +10,8 @@ public class Andriod extends Mobile{
         System.out.println("Andriod Message : please call me! ");
     }
 
+    @Override
+    public void printMobileInfo() {
+        super.printMobileInfo();
+    }
 }
