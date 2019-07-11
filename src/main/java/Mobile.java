@@ -10,6 +10,6 @@ public class Mobile {
     }
 
     public void call(){
-        System.out.println("Message : "+ name +":"+ color +":"+ brand);
+        System.out.println("Message : please call me! ");
     }
 }
