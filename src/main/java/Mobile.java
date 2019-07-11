@@ -9,11 +9,21 @@ public class Mobile {
         this.brand = brand;
     }
 
-    public void printMobileInfo(){
-        System.out.println("Message : please call me! I am "+name +" I am "+color +" and I am"+brand);
+    public String getName() {
+        return name;
     }
 
-    public void call(){
-        System.out.println("Message : please call me! ");
+    public String getColor() {
+        return color;
+    }
+
+    public String getBrand() {
+        return brand;
+    }
+
+    public String  call(){
+        String result = String.format("Message--name: %s color: %s brand: %s ",name,color,brand);
+        System.out.println(result);
+        return result;
     }
 }

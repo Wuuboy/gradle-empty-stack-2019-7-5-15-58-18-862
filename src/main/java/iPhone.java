@@ -5,13 +5,9 @@ public class iPhone extends Mobile {
     }
 
     @Override
-    public void call() {
-//        super.call();
-        System.out.println("iphone Message : please call me! ");
+    public String call() {
+//        System.out.println("iphone Message : please call me! ");
+        return  super.call();
     }
 
-    @Override
-    public void printMobileInfo() {
-        super.printMobileInfo();
-    }
 }
